@@ -26,7 +26,8 @@ public class TestGIT {
         //rows is a list of rows by using "tr" rather than "tr[1]", which represent tr[1], tr[2], tr[3],...
         
         System.out.println("No of rows are : " + rows.size());
-//        wd.close();
+//        Always close Webdriver
+		wd.close();
     }
 
 }
